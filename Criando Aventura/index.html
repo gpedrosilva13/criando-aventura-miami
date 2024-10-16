@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Em busca do Tesouro</title>
+</head>
+
+<body>
+    <main>
+
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0 (1).jpg" alt="">
+            <p>Em um dia comum, ao vasculhar antigos arquivos na biblioteca da família, você encontra um mapa desgastado
+                pelo
+                tempo. No mapa, há uma menção a uma ilha esquecida no meio do oceano, repleta de tesouros e segredos.
+                Fascinado pela descoberta, você decide que precisa explorar essa ilha misteriosa.</p>
+
+
+            <p>Começa sua jornada em Nova York, onde compra todos os equipamentos necessários para a grande expedição.
+                Após tudo pronto, você decide qual será seu próximo destino para chegar até a ilha.</p>
+
+            <button class="btn-proximo" data-proximo="1">Ir para Miami</button>
+            <button class="btn-proximo" data-proximo="2">Ir para Bahamas</button>
+        </div>
+
+    </main>
+    <main>
+        <script src="scrpit.js"></script>
+        <div class="passo" id="passo-1">
+            <img src="cenario-miami.jpg" alt="">
+            <p>Em Miami, você embarca em um navio com destino a ilha. No caminho, você conversa com marinheiros e escuta
+                histórias sobre a ilha. Um deles menciona que a chave para o tesouro está escondida em um farol
+                abandonado
+                em uma das ilhas menores da região. Você precisa escolher:</p>
+
+
+
+            <button class="btn-proximo" data-proximo="3">Explorar o farol abandonado</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="cenario-bahamas.png" alt="">
+            <p>Você decide ir diretamente para as Bahamas. Chegando lá, você encontra um pequeno vilarejo de pescadores.
+                Ao
+                conversar com os habitantes locais, um pescador idoso conta uma lenda sobre uma caverna misteriosa em
+                uma
+                das ilhas ao redor, que poderia conter uma pista do tesouro que você está procurando.</p>
+
+
+            <button class="btn-proximo" data-proximo="5">Explorar a caverna misteriosa</button>
+            <button class="btn-proximo" data-proximo="6">Ignorar a lenda e seguir navegando para o mar aberto</button>
+        </div>
+
+    </main>
+
+    <main>
+    
+    <div class="passo" id="passo-3">
+        <img src="cenario-farol.jpg" alt="">
+        <p>No farol abandonado, você encontra uma inscrição antiga que menciona a localização da próxima pista, que está localizado no Amazonas.</p>
+
+
+        <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas.</button>
+        
+    </div>
+
+</main>
+
+
+
+</body>
+
+</html>
